@@ -1,0 +1,24 @@
+{
+  "name": "@hacktivcolabinc/hacktiv-core-sdk",
+  "version": "1.0.0",
+  "description": "A Hacktiv SDK Component for development",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hacktivcolabinc/hacktiv-core-sdk.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Hacktiv Colab Inc",
+  "license": "MIT",
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
