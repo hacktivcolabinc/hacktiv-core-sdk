@@ -1,11 +1,17 @@
 {
   "compilerOptions": {
+    "incremental": true,
     "outDir": "dist",
     "rootDir": "src",
     "declaration": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "target": "ES2020",
-    "esModuleInterop": true
-  }
+    "module": "CommonJS",
+    "target": "ES5",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "lib": ["ES2017", "DOM"]
+  },
+  "include": [
+    "src/**/*"
+  ],
 }
